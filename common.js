@@ -15,4 +15,12 @@ function criarGrafico(data, laytout){
     .appendChild(grafico)
      Ploty.newPlot(grafico,data,laytout)
 }
+function incluirTexto (texto) {
+    const container = getElementById
+    ('graficos-container');
+    const paragrafo = document.createElement('p')
+    paragrafos.classList.add('graficos-conatiner__texto')
+    paragrafo.innerHTML = texto
+    container.appendChild(paragrafo)
+}
 export {getCSS, tickConfig, criarGrafico}
